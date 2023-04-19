@@ -33,7 +33,7 @@ def create_app(config_name):
     """ Application factory: Assembles and returns clones of your app """
     # Flask init
     app = Flask(__name__) # most of the work done right here. Thanks, Flask!
-    app.config.from_object('settings') # load my settings which pull from .env
+    app.config.from_object(config_name) # load my settings which pull from .env
     
     ''' 
     FLASK EXTENTIONS

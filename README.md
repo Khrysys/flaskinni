@@ -24,7 +24,7 @@ Please see the [guide](https://gilmour.gitbook.io/compsci/web-development) for d
 ##  FLASK 
 ###################
 FLASK_ENV=development # change before publishing
-FLASK_APP=flaskinni
+FLASK_APP=main:app # make sure you know what this is before changing it
 DEBUG=True # change before publishing
 SECRET_KEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' # change before publishing
 
